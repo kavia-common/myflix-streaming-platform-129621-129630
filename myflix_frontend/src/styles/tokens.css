@@ -1,0 +1,62 @@
+:root {
+  /* Design tokens adapted from assets/home_screen_design_notes.md for light theme variant */
+  --bg-canvas: #ffffff;
+  --bg-appbar: #f7f7f8;
+  --bg-surface: #fafafa;
+  --bg-chip: #f0f1f3;
+  --bg-chip-active: #e6e7ea;
+  --text-primary: #0b0b0b;
+  --text-secondary: #4b4e57;
+  --text-tertiary: #6a707c;
+  --accent: #E50914;
+  --accent-strong: #B20610;
+  --button-primary-bg: #000000;
+  --button-primary-fg: #ffffff;
+  --button-outline-border: #c7c9cf;
+  --badge-bg: #eef0f3;
+  --card-bg: #ffffff;
+  --divider: #e5e7eb;
+  --chip-border: #d6d8de;
+  --overlay: rgba(0,0,0,0.45);
+
+  --radius-card: 12px;
+  --radius-chip: 18px;
+  --radius-btn: 8px;
+
+  --shadow-appbar: 0 6px 12px rgba(0,0,0,0.06);
+  --shadow-card: 0 10px 24px rgba(0,0,0,0.08);
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+}
+[data-theme="dark"] {
+  /* Keep original dark vibes from design notes for optional dark mode */
+  --bg-canvas: #0D0A0B;
+  --bg-appbar: #1A0B0D;
+  --bg-surface: #151515;
+  --bg-chip: #232325;
+  --bg-chip-active: #3A3A3F;
+  --text-primary: #FFFFFF;
+  --text-secondary: #BDBDBF;
+  --text-tertiary: #8D8D92;
+  --accent: #E50914;
+  --accent-strong: #B20610;
+  --button-primary-bg: #FFFFFF;
+  --button-primary-fg: #000000;
+  --button-outline-border: #5C5C60;
+  --badge-bg: #2A2A2D;
+  --card-bg: #0F0F10;
+  --divider: #2A2A2D;
+  --chip-border: #3C3C40;
+  --overlay: rgba(0,0,0,0.45);
+
+  --shadow-appbar: 0 6px 12px rgba(0,0,0,0.25);
+  --shadow-card: 0 10px 24px rgba(0,0,0,0.45);
+}
